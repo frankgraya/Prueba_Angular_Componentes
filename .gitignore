@@ -6,6 +6,10 @@
 /out-tsc
 /bazel-out
 
+#ignora carpetas que no queremos subir
+#Dependencias
+/node_modules
+
 # Node
 /node_modules
 npm-debug.log
