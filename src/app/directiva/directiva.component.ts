@@ -5,13 +5,19 @@ import { Component } from '@angular/core';
   templateUrl: './directiva.component.html',
 })
 export class DirectivaComponent {
-
-  listaCurso: String [ ] = ['TypeScript', 'javaScript', 'JavaSE', 'C#', 'PHP','Rust'];
+  listaCurso: String[] = [
+    'TypeScript',
+    'javaScript',
+    'JavaSE',
+    'C#',
+    'PHP',
+    'Rust',
+  ];
 
   habilitar: boolean = true;
 
-  constructor(){
-
+  constructor() {}
+  setHabilitar(): void {
+    this.habilitar = (this.habilitar == true)? false : true;
   }
-
 }
