@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 // declaracion de varibles es recomendable poner tipo de variable
-//estos se visualizan en html como  {{curso}}
+//estos se visualizan en html como  {{curso}}log
   title = 'Bienvenido angular';
   curso: String = 'curso angular';
   profesor: String ='pedro parammo';
